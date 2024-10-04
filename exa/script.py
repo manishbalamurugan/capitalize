@@ -14,7 +14,7 @@ client = OpenAI(
 )
 
 # MongoDB connection
-uri = "mongodb+srv://manish:lemoncherrygelato@v0.b0xcqmc.mongodb.net/?retryWrites=true&w=majority&appName=v0"
+uri = "db_link"
 mongo_client = MongoClient(uri, server_api=ServerApi('1'))
 db = mongo_client['v0']
 
